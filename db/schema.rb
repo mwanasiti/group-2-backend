@@ -13,7 +13,7 @@
 ActiveRecord::Schema[7.0].define(version: 2022_09_02_193547) do
   create_table "lecturers", force: :cascade do |t|
     t.string "name"
-    t.string "cohort"
+    t.string "courses"
   end
 
   create_table "students", force: :cascade do |t|
