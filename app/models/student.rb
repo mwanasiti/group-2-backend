@@ -1,2 +1,2 @@
-class student
+class student <ActiveRecords::Base
 end
