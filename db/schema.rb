@@ -10,10 +10,23 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema[7.0].define(version: 2022_09_02_153456) do
   create_table "lectures", force: :cascade do |t|
     t.string "name"
     t.string "nickname"
+=======
+ActiveRecord::Schema[7.0].define(version: 2022_09_02_200048) do
+  create_table "cohort", force: :cascade do |t|
+    t.string "name"
+    t.integer "cohort_id"
+  end
+
+  create_table "courses", force: :cascade do |t|
+    t.string "name"
+    t.integer "lecturer_id"
+    t.integer "student_id"
+>>>>>>> origin/anthony
   end
 
   create_table "students", force: :cascade do |t|
