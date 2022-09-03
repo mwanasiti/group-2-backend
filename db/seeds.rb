@@ -1,0 +1,1 @@
+Student.create(name: "George Njuki",course_id:2, lecturer_id:1 )
