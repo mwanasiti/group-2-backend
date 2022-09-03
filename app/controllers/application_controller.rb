@@ -62,7 +62,7 @@ class ApplicationController < Sinatra::Base
     
 
     #patch
-    patch '/students/:id' do
+    put '/students/:id' do
       fix = Student.find(params[:id])
       fix.update(
         name: params[:name],
@@ -72,7 +72,7 @@ class ApplicationController < Sinatra::Base
       fix.to_json
     end
 
-    patch '/lecturers/:id' do
+    put '/lecturers/:id' do
       fix = Lecturer.find(params[:id])
       fix.update(
         name: params[:name],
@@ -81,7 +81,7 @@ class ApplicationController < Sinatra::Base
       fix.to_json
     end
 
-    patch '/courses/:id' do
+    put '/courses/:id' do
       fix = Course.find(params[:id])
       fix.update(
         name: params[:name],
