@@ -1,5 +1,6 @@
 require_relative "./config/environment"
-# require 'sinatra'
+require 'rack'
+require_relative "./app/controllers/application_controller"
 
 # Allow CORS (Cross-Origin Resource Sharing) requests
 use Rack::Cors do
@@ -12,5 +13,4 @@ end
 # Parse JSON from the request body into the params hash
 use Rack::JSONBodyParser
 
-# Our application
 run ApplicationController
