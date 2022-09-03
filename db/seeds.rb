@@ -19,8 +19,8 @@ Lecturer.create(name: "Kelvin Kipchumba", course: "Software Development")
 
 
 # Creates the courses table
-Courses.create(name: "Sotware Development", lecturer_id: 1, student_id: 3)
-Courses.create(name: "Data Science", lecturer_id: 2, student_id: 2)
-Courses.create(name: "Cybersecurity", lecturer_id: 3, student_id: 1)
+Course.create(name: "Sotware Development", lecturer_id: 1, student_id: 3)
+Course.create(name: "Data Science", lecturer_id: 2, student_id: 2)
+Course.create(name: "Cybersecurity", lecturer_id: 3, student_id: 1)
 
 puts "Done seeding"
