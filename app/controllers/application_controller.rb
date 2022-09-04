@@ -1,6 +1,6 @@
 class ApplicationController < Sinatra::Base
     set :default_content_type, 'application/json'
-    
+    set :protection, :except => [:json_csrf]
     #get
 
     get '/students/:id' do
