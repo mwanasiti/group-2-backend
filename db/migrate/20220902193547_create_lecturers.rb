@@ -1,4 +1,4 @@
-class CreateLecturers < ActiveRecord::Migration[7.0]
+class CreateLecturers < ActiveRecord::Migration[6.1]
   def change
     create_table :lecturers do |t|
       t.string :name
