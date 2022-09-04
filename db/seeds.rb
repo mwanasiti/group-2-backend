@@ -1,3 +1,4 @@
+
 puts "I am a seeding file"
 
 # Creates the students data
@@ -24,3 +25,4 @@ Course.create(name: "Data Science", lecturer_id: 2, student_id: 2)
 Course.create(name: "Cybersecurity", lecturer_id: 3, student_id: 1)
 
 puts "Done seeding"
+>>>>>>> 02878535fb13ad7d1b9f7397a3e26899679c17e5
