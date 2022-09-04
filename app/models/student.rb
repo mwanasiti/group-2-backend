@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-class Student
-=======
-class student <ActiveRecords::Base
->>>>>>> origin/allan
+class Student <ActiveRecord::Base
+    belongs_to :course
 end

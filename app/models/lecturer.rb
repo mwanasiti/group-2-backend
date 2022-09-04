@@ -1,6 +1,4 @@
-<<<<<<< HEAD
+
 class Lecturer < ActiveRecord::Base
-=======
-class lecturer <ActiveRecords::Base
->>>>>>> origin/allan
+    has_many :students, through: :courses
 end
