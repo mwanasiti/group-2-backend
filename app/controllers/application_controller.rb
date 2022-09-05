@@ -2,6 +2,9 @@ class ApplicationController < Sinatra::Base
     set :default_content_type, 'application/json'
     set :protection, :except => [:json_csrf]
     #get
+    get '/' do
+      "Group-2 Database"
+    end
 
     get '/students/:id' do
       student = Student.find(params[:id])
