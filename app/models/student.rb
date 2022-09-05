@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-class Student
-=======
-class Student < ActiveRecord::Base
-
->>>>>>> origin/sauroki
+class Student <ActiveRecord::Base
+    belongs_to :course
 end
