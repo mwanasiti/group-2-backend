@@ -11,9 +11,14 @@
 # It's strongly recommended that you check this file into your version control system.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ActiveRecord::Schema[7.0].define(version: 2022_09_02_200650) do
 =======
 ActiveRecord::Schema[7.0].define(version: 2022_09_03_123616) do
+=======
+ActiveRecord::Schema.define(version: 2022_09_03_123616) do
+
+>>>>>>> 5cccd4d2afac7de016d4b44813c6f7fbe9e1e5e4
   create_table "courses", force: :cascade do |t|
     t.string "name"
     t.integer "lecturer_id"
